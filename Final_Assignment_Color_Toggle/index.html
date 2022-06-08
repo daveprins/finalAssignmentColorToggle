@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>De beste racefiets routes per provincie!</title>
+    <link rel="stylesheet" type="text/css " href="style.css" />
+  </head>
+
+  <body id="body">
+    <!--Start menu and logo-->2
+
+    <header class="header">
+      <nav class="nav-main">
+        <div class="hamburger" onmouseenter="toggleNav()"></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutme.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <aside class="nav-hamburger" onmouseleave="toggleNav()">
+        <ul>
+          <li><span>Kies je achtergrondkleur</span></li>
+          <li id="item-white">
+            <input
+              onclick="changeColorWhite()"
+              type="radio"
+              name="colors"
+              id="white"
+              checked="checked"
+            />
+            <label for="white"></label>
+            <label for="white">Wit</label>
+          </li>
+          <li id="item-red">
+            <input
+              onclick="changeColorRed()"
+              type="radio"
+              name="colors"
+              id="red"
+            />
+            <label for="red"></label>
+            <label for="red">Rood</label>
+          </li>
+          <li id="item-green">
+            <input
+              onclick="changeColorGreen()"
+              type="radio"
+              name="colors"
+              id="green"
+            />
+            <label for="green"></label>
+            <label for="green">Groen</label>
+          </li>
+          <li id="item-blue">
+            <input
+              onclick="changeColorBlue()"
+              type="radio"
+              name="colors"
+              id="blue"
+            />
+            <label for="blue"></label>
+            <label for="blue">Blauw</label>
+          </li>
+        </ul>
+      </aside>
+    </header>
+
+    <!--Start content article-->
+
+    <main>
+      <div class="cointainer">
+        <article>
+          <div id="main-banner">
+            <img src="./Images/Fietsroutes-main-banner.jpg" alt="fietsroutes" />
+          </div>
+          <div class="article-main">
+            <p><b>De achtergrond kleur is: </b><span id="color">Wit</span></p>
+            <h1>De beste racefiets routes per provincie!</h1>
+            <h3 class="underline">24 Januari 2022</h3>
+            <p class="intro">
+              Fietsen is genieten! Of je nou op de racefiets, mountainbike,
+              gravelbike, stadsfiets of op een andere fiets rijdt, elk type
+              fiets heeft zijn charmes. Je kunt je fietsrit nog een stuk leuker
+              maken door nieuwe routes te fietsen en op plekken te komen waar je
+              nog nooit eerder bent geweest. Daarom hebben we bedacht om alle
+              prachtige fietsroutes van onze medewerkers én onze klanten te
+              bundelen. In deze blog hebben we alle racefiets routes voor je op
+              een rijtje gezet.
+            </p>
+            <p class="copy">
+              Alle fietsroutes op deze pagina zijn te downloaden via Komoot.
+              Door op de afbeelding te klikken, kom je bij de route uit. Als je
+              de regio waar de Tour begint hebt ontgrendeld, kun je deze als
+              GPX-bestand downloaden en op je fietscomputer gebruiken. Zo kun je
+              snel op weg om de mooiste fietsroutes te fietsen op het moment dat
+              het jou uitkomt!
+            </p>
+            <div id="copy-banner">
+              <img src="./Images/Fietsroutes-copy.jpg" alt="Mooie raceroutes" />
+            </div>
+            <p class="underline">
+              Met een mooie racefiets route en een fietscomputer ben je klaar om
+              op pad te gaan!
+            </p>
+            <h2>De beste racefiets routes volgens onze klanten en collega's</h2>
+            <p class="copy">
+              Op de racefiets kun je gemakkelijk flinke afstanden fietsen.
+              Doordat je zoveel kilometers kunt afleggen, kun je onderweg
+              ontzettend veel verschillende nieuwe highlights tegenkomen. Zo
+              vind je in Zuid-Limburg verschillende verborgen klimmetjes, is het
+              op de Veluwe een stuk heuveliger dan je misschien zou denken, kom
+              je in Drenthe langs de hunebedden en vind je in Friesland
+              fantastische vergezichten en pittoreske dorpjes. Hieronder vind je
+              per provincie onze Mantel Racefiets Routes om eens zelf te
+              fietsen. Volgens onze collega's en klanten zijn dit de beste
+              racefiets routes! Alle routes gereden?
+            </p>
+            <h2>De beste racefiets routes volgens onze klanten en collega's</h2>
+            <ul>
+              <li>
+                <a href="#gelderland" class="routes"
+                  >Racefiets routes in Gelderland</a
+                >
+              </li>
+              <li>
+                <a href="#limburg" class="routes"
+                  >Racefiets routes in Limburg</a
+                >
+              </li>
+            </ul>
+            <h2 id="gelderland">Racefiets routes in Gelderland</h2>
+            <p class="copy">
+              Dat je in Gelderland niet alleen maar vlakke routes hebt, bewijst
+              de route van collega Dennis wel. In de prachtige omgeving van het
+              Rijk bij Nijmegen vind je glooiende heuvels en steile verborgen
+              klimmetjes. Deze route voert je vanaf Nijmegen richting de heuvels
+              bij Mook en vervolgens door naar Duitsland via het Reichswald. Het
+              mooie aan deze route is dat het landschap continu blijft
+              veranderen. Je fietst eerst in de heuvels, vervolgens ga je via
+              Duitsland richting de polder bij Ooij en een paar kilometer verder
+              duik je terug de heuvels in bij Groesbeek. Ben je een echte
+              allrounder? Dan past deze route goed bij jou!
+            </p>
+            <div id="gelderland-banner">
+              <img
+                src="./Images/Komoot-route-Toerke-Nijmegen-Duitsland-2.png"
+                alt="Mooie raceroutes"
+              />
+            </div>
+            <h2 id="limburg">Racefiets routes in Limburg</h2>
+            <p class="copy">
+              Dat je in Gelderland niet alleen maar vlakke routes hebt, bewijst
+              de route van collega Dennis wel. In de prachtige omgeving van het
+              Rijk bij Nijmegen vind je glooiende heuvels en steile verborgen
+              klimmetjes. Deze route voert je vanaf Nijmegen richting de heuvels
+              bij Mook en vervolgens door naar Duitsland via het Reichswald. Het
+              mooie aan deze route is dat het landschap continu blijft
+              veranderen. Je fietst eerst in de heuvels, vervolgens ga je via
+              Duitsland richting de polder bij Ooij en een paar kilometer verder
+              duik je terug de heuvels in bij Groesbeek. Ben je een echte
+              allrounder? Dan past deze route goed bij jou!
+            </p>
+            <div id="limburg-banner">
+              <img
+                src="./Images/Rondje-Mantel-Sander.png"
+                alt="Mooie raceroutes"
+              />
+            </div>
+          </div>
+          <!--End article-main-->
+        </article>
+        <article class="article-aside">
+          <span>
+            <img
+              src="https://d2gqkshisthvn1.cloudfront.net/blog/wp-content/uploads/Eva-MNTL0002-60x60.jpg"
+            />
+            <h3>Eva van den Berg</h3>
+          </span>
+          <p>
+            Sinds ik bij Mantel werk, schrijf en lees ik dagelijks veel over
+            fietsen. Daarnaast mag ik ook nieuwe producten uittesten. Dit zorgt
+            ervoor dat het steeds meer begint te kriebelen om mijn eigen
+            collectie fietsen uit te breiden. Ik ben dan ook benieuwd hoe de
+            inhoud van mijn schuur er over een paar jaar uitziet. Gelukkig heb
+            ik thuis een grote schuur!
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <!--Start footer-->
+    <footer>
+      <div id="usp-line">
+        <ul id="usp">
+          <li><a href="#"></a>* Gratis bezorging vanaf € 29,-</li>
+          <li><a href="#"></a>* Gratis retourneren binnen 30 dagen</li>
+          <li><a href="#"></a>* 4 winkels om te bezoeken</li>
+        </ul>
+      </div>
+      <nav class="footer">
+        <h2 class="foot-nav">Categoriën</h2>
+        <ul>
+          <li><a href="#"></a>Fietsonderdelen</li>
+          <li><a href="#"></a>Fietskleding</li>
+          <li><a href="#"></a>Fietstrainers</li>
+        </ul>
+        <h2 class="foot-nav">Onze winkels</h2>
+        <ul>
+          <li><a href="#"></a>Superstore Arnhem</li>
+          <li><a href="#"></a>Superstore Den Bosch</li>
+          <li><a href="#"></a>Superstore Utrecht</li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
